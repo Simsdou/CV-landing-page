@@ -1,0 +1,81 @@
+
+h1{color: blue; font-size: 56px; font-family: Helvetica; font-weight: 200;}
+.grasrouge{color: red; font-size: 11px}
+body{font-family: Georgia;
+	background-color: #3664c7; border: 10px solid black; margin: 50px; padding: 25px; box-shadow: 1px 1px 30px #333; border-radius: 10px; opacity: 1}
+img{
+	float: right;
+	width: 200px;
+}
+h2,h3 {
+	font-family: 'Roboto', sans-serif;
+}
+h2 {
+	color: #4F5165;
+	font-size: 24px;
+	font-weight: lighter;
+	font-weight: 500;
+}
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #50D8D7;
+	font-weight: 600;
+	font-size: 25px;
+}
+
+#strong {font-size: 8px}
+html{background-color: dimgray}
+a:hover{color: red;}
+h1, h2, h3, a{color: brown;}
+@media screen and (max-width: 640px){
+	div{display:none;}
+}
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white {
+	background-color: white;
+	padding: 50px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+#introduction p{
+	margin-bottom: 40px;
+}
+
+.img-circle {
+	border-radius: 50%
+}
+.btn-red{
+	background-color: blue;
+	color:white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px
+}
+.list-inline li {
+	display: inline;
+	padding: 10px
+}
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+.list-inline i:hover {
+	color: blue;
+}
+#second{
+	padding: 50px;
+}
+
+
+
+
